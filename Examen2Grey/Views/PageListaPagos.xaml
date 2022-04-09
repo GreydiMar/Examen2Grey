@@ -3,6 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="Examen2Grey.Views.PageListaPagos">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="LISTA DE PAGOS">
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
     <ContentPage.Resources>
         <ResourceDictionary>
             <xct:ByteArrayToImageSourceConverter x:Key="ByteArrayToImageSourceConverter" />

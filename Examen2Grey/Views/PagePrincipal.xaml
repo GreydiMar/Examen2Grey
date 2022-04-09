@@ -2,12 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Examen2Grey.Views.PagePrincipal"
-             BackgroundImageSource="images.jpg">
+              BackgroundImageSource="bac1.jpg">
+    
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Seleccione la acción que desea realizar">
-            
         </ToolbarItem>
     </ContentPage.ToolbarItems>
+    
         <ContentPage.Content>
         <StackLayout>
            
