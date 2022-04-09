@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Examen2Grey.Views.PageActualizar">
+    <ContentPage.Content>
+        <StackLayout>
+
+
+            <Image x:Name="Foto" BackgroundColor="AliceBlue"
+                   WidthRequest="100" HeightRequest="170"/>
+
+            <Button x:Name="btnfoto" 
+                        Text="Tomar Foto" 
+                        Clicked="btnfoto_Clicked" 
+                        VerticalOptions="Center" />
+
+            <Label Text="Id"/>
+            <Entry Keyboard="Numeric"
+                       Placeholder="Codigo"
+                       x:Name="Id"/>
+
+            <Label Text="Descripcion"/>
+            <Entry Keyboard="Text"
+                       Placeholder="Descripcion"
+                       x:Name="descripcion"/>
+
+            <Label Text="Monto"/>
+            <Entry Keyboard="Numeric"
+                       Placeholder="Monto"
+                       x:Name="monto"/>
+
+            <Label Text="Fecha"/>
+            <DatePicker Format="dd/MM/yyyy"
+                        x:Name="fecha"/>
+
+            <Button x:Name="btnagregar" 
+                    Text="Agregar pago" 
+                    Clicked="btnagregar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
